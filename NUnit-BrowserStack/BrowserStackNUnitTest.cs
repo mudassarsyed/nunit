@@ -61,7 +61,6 @@ namespace BrowserStack
         browserStackLocal = new Local();
                 List<KeyValuePair<string, string>> bsLocalArgs = new List<KeyValuePair<string, string>>() { };
                 bsLocalArgs.Add(new KeyValuePair<string, string>("key", "8ZezGR6GyZjP2ZqrXphh"));
-                bsLocalArgs.Add(new KeyValuePair<string, string>("binarypath", "/Users/mudassarsyed/Desktop/demo/BrowserStackLocal"));
                 browserStackLocal.start(bsLocalArgs);
             }
 
